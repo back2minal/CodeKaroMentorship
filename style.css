@@ -1,0 +1,199 @@
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+.left{
+    width:20%;
+}
+
+.left-top select{
+    border-color:#e4e4e7;
+}
+
+.middle {
+    width: 30%;
+}
+
+.right{
+    width:50%;
+}
+
+.left-top .middle-top .right-top {
+    align-content: center;
+}
+
+
+
+.middle-top-left {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.middle-top-right {
+    background-color: #f4f4f5;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.middle-top-right .btn{
+    padding:0px 10px;
+}
+
+.middle-top-right .active {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.border-1 {
+    border: 1px solid #e4e4e7;
+}
+
+.flex{
+    display:flex;
+}
+
+.gap{
+    gap:20px;
+}
+
+.sp-bt{
+    justify-content:space-between;
+}
+
+.p-5{
+    padding:5px 5px;
+}
+.p-10{
+    padding:10px 10px;
+}
+
+.m-10{
+    margin:10px auto;
+}
+
+.m-5{
+    margin:5px 5px;
+}
+
+.w-100{
+    width:100%;
+}
+
+.h-30{
+    height:30px;
+}
+
+.right-top {
+    font-size: 25px;
+}
+
+.NavItems {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-weight: 500;
+}
+
+.NavItems-desc {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.item-active {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.middle2 {
+    border: 1px solid #e4e4e7;
+}
+
+.middle2-item {
+    margin: 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+}
+
+.m2-item-active{
+    background-color:#e4e4e7;
+}
+
+.middle2-name {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.middle2-since{
+    font-size:13px;
+
+}
+.middle2-sub {
+    font-weight: 500;
+    font-size: small;
+    padding-bottom: 5px;
+}
+
+.middle2-body {
+    font-size: smaller;
+    color: #808080;
+    padding-bottom: 5px;
+}
+
+.middle2-badge {
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px;
+    font-size: small;
+}
+
+.active-blk {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding:0px 5px 0px 5px;
+}
+
+.mail-info{
+    border:1px solid #e4e4e7;
+}
+
+.prof-img {
+    width:50px;
+    height:50px;
+    background-color: #f4f4f5;
+    border-radius:50%;
+    object-fit:cover;
+    justify-content:space-between;
+}
+
+.mail-name {
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.mail-sub {
+    font-size: 13px;
+}
+
+.mail-to {
+    font-size: 13px;
+    padding-bottom:10px;
+}
+
+.mail-date-time {
+    font-size: 13px;
+    color:#808080;
+}
+
+.mail-body {
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+}
+
